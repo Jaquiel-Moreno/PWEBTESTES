@@ -1,0 +1,96 @@
+/*Geral*/
+body{
+    margin :0;
+    padding: 0;
+    font-family: Arial, sans-serif "times";
+    background-color: rgb(0, 174, 255); ;
+    color: black;
+   
+}
+#formulario{
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(218, 215, 32, 0.938);
+    border: 1px solid;
+    border-radius: 10px;
+    max-width: 800px;
+}
+/*título dos campos*/
+label{
+    font-size: 19px;
+    font-weight: bold;
+    color: #333333;
+}
+/*campos de texto*/
+input[type="text"],
+input[type="email"]
+textarea{
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    /*width : 50%*/
+    /*se quiser que ocupe todo o espaço colocar a largura 100% width : 100%*/
+}
+/* campos de opções*/
+input[type="radio"],
+input[type="checkbox"]
+{
+    margin-right: 5px;
+}
+/*Butões*/
+input[type="submit"],
+input[type="reset"],
+button[type="button"]
+{
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    color: whitesmoke;
+    background: blueviolet;
+    cursor:pointer;
+    margin-right: 10px;
+}
+/* Botão Limpar*/
+button[type="button"]
+{
+    background-color: #511e9848;
+    padding: 5px 20px;
+    font-size: 12px;
+    color: White;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgb(255, 78, 78);
+    margin-left: 10px;
+}
+/*Campos de seleção*/
+select{
+    padding: 5px;
+    border-block-start-style: 2px;
+    font-size: 16px;
+    width: 30%;
+    margin-bottom: 10px;
+    background-image: linear-gradient(rgb(255, 0, 140) , BLUE);
+}
+/*SELECIONAR CAMPO DE SELEÇÃO*/
+select:focus{
+    outline: 2px solid red;
+    border-color: #333333;
+}
+/*Legenda dos Campos */
+legend{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+/*Mensagem de erro*/
+input:invalid{
+    border: 2px solid  red;
+}
+.rodape{
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center; /*ou width:50% ou a largura desejada*/
+}
